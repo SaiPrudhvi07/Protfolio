@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sai Prudhvi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sai Prudhvi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://res-console.cloudinary.com/dguwvmxq2/thumbnails/v1/image/upload/v1718187092/UGljc2FydF8yNC0wNi0xMl8xNS0xMy0zNC0zODlfYmppNnph/preview" alt="Sai prudhvi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sai Prudhvi</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+            >
+            
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/linkedin.png?raw=true"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sai-prudhvi-samatham-359b0b293/'"
+          />
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/github.png?raw=true"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SaiPrudhvi07'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://res-console.cloudinary.com/dguwvmxq2/thumbnails/v1/image/upload/v1718188664/UGljc2FydF8yNC0wNi0xMl8xNi0wNi00MC0zNTdfYm8xcmhj/drilldown"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/experience.png?raw=true"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Done some intrenship and some projects on<br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/education.png?raw=true"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.tech and<br>web development courses.</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am currently pursuing B.Tech and developing my skills in web development. 
+                I am passionate about creating dynamic and engaging websites. 
+                Proficient in HTML, CSS, and JavaScript, I am eager 
+                to enhance my knowledge with advanced concepts like server-side programming
+                and popular frameworks like React, Angular, or Vue.js.I believe in continuous learning 
+                and staying updated with the latest technologies in the ever-evolving web development 
+                landscape. Excited to grow my career in web development and contribute to building 
+                innovative and user-friendly web experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                    <h3>Node JS</h3>
+                    <p>Basic</p>
+                </div>
+              </article>
+              
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/email.png?raw=true                    "
+            alt="Email icon"
+            class="icon contact-icon email-icon"    
+          />
+          <p><a href="saiprudhvi077@gmail.com">saiprudhvi077@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/linkedin.png?raw=true"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sai-prudhvi-samatham-359b0b293/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
